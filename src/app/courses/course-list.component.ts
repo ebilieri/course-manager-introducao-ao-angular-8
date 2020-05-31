@@ -6,7 +6,7 @@ import { Course } from './course';
     templateUrl: './course-list.component.html'
 })
 
-export class CourseListComponet {
+export class CourseListComponet implements OnInit {
     courses: Course[] = [];
 
     ngOnInit(): void {
@@ -14,21 +14,21 @@ export class CourseListComponet {
             {
                 id: 1,
                 name: 'Angula Forms',
-                imageUrl: '',
+                imageUrl: '/assets/images/forms.png',
                 price: 25.50,
                 code: 'FRONT-END:25548',
                 duration: 120,
-                rating: 8,
+                rating: 4.5,
                 releaseDate: 'May, 31, 2020'
             },
             {
                 id: 1,
                 name: 'Angula HTTP',
-                imageUrl: '',
+                imageUrl: '/assets/images/http.png',
                 price: 25.50,
                 code: 'FRONT-END:8000',
                 duration: 120,
-                rating: 6,
+                rating: 4,
                 releaseDate: 'May, 29, 2020'
             }
         ]
