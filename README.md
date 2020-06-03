@@ -1,27 +1,18 @@
-# CourseManager
+# Course Manager Introdução ao Angular 8
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+Repositório Course Manager contém o fonte onde foram aplicados os conceitos e técnicas necessárias para começar a desenvolver aplicações usando Angular 8.
 
-## Development server
+## course-manager-angular-frontend
+Aplicação front end criada com Angular 8
+ 
+## course-manager-server
+Aplicação Node.JS que contem a API Back end da aplicação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Executando a aplicação 
 
-## Code scaffolding
+1. npm run start no diretorio c*ourse-manager-server* para iniciar o Front end
+1. node serve.js no diretório c*ourse-manager-server* para iniciar o Back end
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## certificates
+configurar certificado para executar a aplicação localhost com https
+[certificado https](https://medium.com/@richardr39/using-angular-cli-to-serve-over-https-locally-70dab07417c8)
