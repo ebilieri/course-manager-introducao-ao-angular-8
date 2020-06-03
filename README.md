@@ -10,8 +10,8 @@ Aplicação Node.JS que contem a API Back end da aplicação
 
 Executando a aplicação 
 
-1. npm run start no diretorio c*ourse-manager-server* para iniciar o Front end
-1. node serve.js no diretório c*ourse-manager-server* para iniciar o Back end
+1. npm run start no diretorio *course-manager-server* para iniciar o Front end
+1. node serve.js no diretório *course-manager-server* para iniciar o Back end
 
 ## certificates
 configurar certificado para executar a aplicação localhost com https
